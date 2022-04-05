@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+}
+
+.speeking {
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+
+
+.textspace {
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 50%;
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid goldenrod;
+    box-shadow: 4px 3px 2px -1px rgb(179, 128, 128);
+    color: #db9244;
+}
+
+.takeout {
+    display: none;
+}
