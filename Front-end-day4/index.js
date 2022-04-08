@@ -11,11 +11,11 @@ let arrayProcessor = function (arrayOfObjects) {
 
     for (x in arrayOfObjects){
         arrayResult.push(`${arrayOfObjects[x].name}/${arrayOfObjects[x].age}/${arrayOfObjects[x].level}`);
-        console.log(arrayResult);
+        
     }
 
     console.log(arrayResult); // TEST CASES
-    textfield.innerHTML = arrayResult;
+    textfield.innerHTML = arrayResult; // TEST CASES
     return arrayResult;
 
 }
