@@ -15,7 +15,7 @@ let arrayProcessor = function (arrayOfObjects) {
     }
 
     console.log(arrayResult); // TEST CASES
-
+    textfield.innerHTML = arrayResult;
     return arrayResult;
 
 }
