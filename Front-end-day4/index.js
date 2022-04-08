@@ -7,7 +7,7 @@ let textField = document.querySelector(".newtext p");
 let arrayProcessor = function (arrayOfObjects) {
 
     let arrayResult = [];
-    let i = 0;
+
 
     for (x in arrayOfObjects){
         arrayResult.push(`${arrayOfObjects[x].name}/${arrayOfObjects[x].age}/${arrayOfObjects[x].level}`);
