@@ -16,7 +16,7 @@ function arrayProcessorReverse(processArray) {
     }
 
     console.log(realArray); //TEST CASES
-    textField.innerHTML = realArray; // TEST CASES
+    textField.innerHTML = JSON.stringify(realArray); // TEST CASES
     return realArray;
 }
 
