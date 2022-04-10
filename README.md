@@ -15,3 +15,8 @@ DayThreeLINK: https://lilphemy.github.io/30DaysOfCode/Front-end-day3/index.html
 ---
 
 DayFourLINK: https://lilphemy.github.io/30DaysOfCode/Front-end-day4/index.html
+
+
+---
+
+DayFiveLINK: https://lilphemy.github.io/30DaysOfCode/Front-end-day5/index.html
