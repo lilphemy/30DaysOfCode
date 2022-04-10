@@ -1,5 +1,7 @@
 # 30DaysOfCode
 Repo for the coding activities 
+
+---
 DayOneLINK: https://lilphemy.github.io/30DaysOfCode/Front-end-day1/index.html
 
 ---
