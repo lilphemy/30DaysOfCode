@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(159, 195, 210);
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.diffspeak {
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.inputuse {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+#intvalue {
+    font-size: 15px;
+    padding: 00.4rem;
+    color: black;
+    background-color: wheat;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+#btn {
+    font-size: 13px;
+    font-size-adjust: 20px;
+    padding: 0.4rem;
+    font-family: cursive;
+    text-transform: capitalize;
+    color: gold;
+    background-color: black;
+    border-radius: 0.7em;
+    border: none;
+
+}
+
+.newtext {
+    width: 80%;
+    text-align: justify ;
+    margin: 20px auto;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(103, 103, 19);
+    line-height: 2rem ;
+    
+}
+
+@media screen and (min-height: 700px) and (min-width: 600px ) {
+    
+    .newtext {
+        line-height: 3rem;
+        border: 2px dotted whitesmoke;
+        padding: 3rem;
+        font-size: 1.5rem;
+        word-wrap: break-word;
+    }
+}
+
