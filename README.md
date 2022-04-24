@@ -37,3 +37,10 @@ DayNineLINK: https://lilphemy.github.io/30DaysOfCode/Front-end-day9/index.html
 ---
 
 DayTenLINK: https://lilphemy.github.io/30DaysOfCode/Front-end-day10/index.html
+
+
+---
+
+Day11&12LINK: https://lilphemy.github.io/30DaysOfCode/Front-end-day11&12/index.html
+
+
