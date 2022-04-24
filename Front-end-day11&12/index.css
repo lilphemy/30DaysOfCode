@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(6, 4, 4);
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.diffspeek, .diffsection {
+    background-color:  rgba(104, 100, 100, 0.9);
+    width: 80%;
+    padding: 1.5rem;
+    margin: 0 auto;
+    margin: 35% auto;
+    text-align: justify;
+    border-radius: 2rem;
+}
+
+.star-block {
+    background-color: rgba(77, 71, 71, 0.9);
+    width: fit-content;
+    padding: 0.8rem;
+    border-radius: 2em;
+}
+
+.text-block, .thankstextbloc{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.title-quest, .thankstitle {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    
+}
+
+.para-text, .thankstext {
+    margin: 1.5rem auto;
+    font-size: 1rem;
+    color: #b3b2b2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.para-text {
+    text-align: left;
+    width: fit-content;
+}
+
+
+.thankstext {
+    text-align: center;
+    width: fit-content
+}
+
+.rate-butts{
+    margin-bottom: 1.5rem;
+}
+
+#btn {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 2em;
+    background-color: rgb(255, 145, 28);
+    color: whitesmoke;
+    outline: none;
+    border: none;
+
+}
+
+ul, .rate-butts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+ul li, #rate-values {
+    list-style: none;
+    background-color: rgba(28, 26, 26, 0.77);
+    color: rgb(106, 100, 100);
+    font-size: 1rem;
+    padding: 0.8rem;
+    width: 2.5rem;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    
+}
+
+#btn:hover:active, #rate-values:hover{
+    background-color: beige;
+    color:#211e1e
+}
+
+.active{
+    background-color: beige;
+    color:#11541e;
+}
+
+.diffsection{
+    text-align: center;
+    
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: flex;
+    flex-direction: column;
+}
+
+.ratebloctext {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2em;
+    background-color: rgb(40, 37, 36);
+    padding: 0.4rem;
+    color: rgb(164, 114, 22);
+    margin: 1.6em auto;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 700px){
+    .diffspeek, .diffsection {
+        width: 60%;
+        
+    }
+
+    ul li, #rate-values {
+        
+        font-size: 1.6rem;
+        padding: 0.8rem;
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+    #btn {
+        font-size: 2rem;
+        margin: 1em auto;    
+    }    
+
+    .para-text, .thankstext {
+        margin: 1.5rem auto;
+        font-size: 1.4rem;
+        text-transform: capitalize;
+        text-align: center, justify;
+    }
+    
+    
+    
+}
